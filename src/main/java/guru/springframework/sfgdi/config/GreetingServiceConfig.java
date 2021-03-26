@@ -9,7 +9,7 @@ import guru.springframework.sfgdi.services.*;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.*;
 
-@PropertySource("classpath:datasource.properties")
+// not needed when using spring boot application properties file @PropertySource("classpath:datasource.properties")
 @ImportResource("classpath:sfgdi-config.xml")
     @Configuration
 // This annotation tells Spring:This is going to be a Spring configuration class.
